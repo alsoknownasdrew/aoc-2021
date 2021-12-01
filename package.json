@@ -1,0 +1,24 @@
+{
+  "name": "aoc-2021",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "exec": "ts-node",
+    "lint": "ts-standard",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.5.2"
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json",
+    "ignore": [
+      "build"
+    ]
+  }
+}
