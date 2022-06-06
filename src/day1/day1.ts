@@ -13,6 +13,6 @@ export const slidingWindowsSums = (numbers: number[]): number[] => {
       return number + nextNumber + secondNextNumber
     }
 
-    return undefined
-  }).filter(item => item !== undefined) as number[] // FIXME
+    return 0
+  })
 }
